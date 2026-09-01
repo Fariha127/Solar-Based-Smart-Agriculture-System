@@ -84,11 +84,11 @@ To ensure reliable operation outdoors, the system employs a **hybrid power manag
                      └─────┬─────┘
        ┌───────┬───────────┼──────────────┬─────────┐
        │       │           │              │         │
-   ┌───▼──┐┌───▼───┐  ┌────▼────┐   ┌─────▼───┐ ┌───▼───┐
-   │DHT11 ││ Soil  │  │  Water  │   │  Rain   │ │ Relay │
-   │Temp/ ││Moisture│  │  Level  │   │ Sensor  │ │ +Pump │
-   │Humid ││Sensor  │  │ Sensor  │   │(Interrupt)│ │       │
-   └──────┘└────────┘  └─────────┘   └─────────┘ └───────┘
+   ┌───▼──┐┌───▼───┐  ┌────▼────┐   ┌─────▼─── ┐ ┌───▼───┐
+   │DHT11 ││ Soil  │  │  Water  │   │  Rain    │ │ Relay │
+   │Temp/ ││Moisture│ │  Level  │  | Sensor   │ │ +Pump │
+   │Humid ││Sensor  │ │ Sensor  │  |(Interrupt)│|       │
+   └──────┘└────────┘ └─────────┘  |─────────┘  └───────┘
                            │
                      ┌─────▼──────┐
                      │  Wi-Fi /   │
