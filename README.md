@@ -114,6 +114,7 @@ To ensure reliable operation outdoors, the system employs a **hybrid power manag
     </td>
   </tr>
 </table>
+
 ---
 
 ## 🛠 Hardware Components
