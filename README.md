@@ -100,6 +100,21 @@ To ensure reliable operation outdoors, the system employs a **hybrid power manag
 **Data flow:** Sensors → ESP32 (FreeRTOS tasks) → Irrigation decision logic → Relay/Pump control + Blynk dashboard update → Deep Sleep (timer or rain-interrupt wake).
 
 ---
+## 🖼️ System Images & Visuals
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Fariha127/Solar-Based-Smart-Agriculture-System/main/Physical%20Demonstation%20of%20Project/Image%201.jpg" width="400" alt="Hardware Setup"><br>
+      <b>Hardware & Sensor Connections</b>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Fariha127/Solar-Based-Smart-Agriculture-System/main/Physical%20Demonstation%20of%20Project/Image%202.jpg" width="400" alt="Solar Setup"><br>
+      <b>Solar & Hybrid Power Assembly</b>
+    </td>
+  </tr>
+</table>
+---
 
 ## 🛠 Hardware Components
 
